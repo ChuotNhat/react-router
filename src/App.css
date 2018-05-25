@@ -1,0 +1,91 @@
+a {
+  text-decoration: none;
+}
+.Login,
+.Register,
+.NewArticle,
+.Setting {
+  width: 400px;
+  margin: 40px auto;
+}
+.Login a,
+.Register a {
+  text-align: center;
+  color: #18a0a3;
+  text-decoration: none;
+}
+.Login input, 
+.Register input,
+.NewArticle input,
+.Setting input {
+  width: 100%;
+  padding: 10px 20px;
+  margin : 10px 0;
+  font-size: 15px;
+  box-sizing: border-box;
+  font: inherit;
+}
+.Login button, 
+.Register button,
+.NewArticle button,
+.Setting button {
+  padding: 10px 20px;
+  background: #18a0a3;
+  color: white;
+  border: 0;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.NewArticle textarea,
+.Setting textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  margin: 10px 0;
+  font: inherit;
+  resize: vertical;
+}
+.Header {
+  height: 60px;
+  border-bottom: 2px solid #18a0a3;
+}
+.Header__title {
+  float: left;
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  margin-left: 50px;
+  text-transform: uppercase;
+  font-weight: 600; 
+}
+.Header__menu {
+  float: right;
+  display: inline-block;
+  margin: 0;
+  padding:0;
+  height: 100%;
+  margin-right: 50px;
+}
+
+.Header__menu li {
+  display: inline-block;
+  padding: 0 10px;
+  height: 100%;
+}
+.Header__menu li a {
+  height: 100%;
+  display: inline-block;
+  color: grey;
+}
+.Header__menu li a:before,
+.Header__title:before {
+  content: "";
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.Home {
+  margin: 10px 50px;
+}
