@@ -18,20 +18,6 @@ const Header = () => (
         <NavLink exact to="/register" activeStyle={activeClass}>Register</NavLink>
       </li>
     </ul>
-    <ul className="Header__menu">
-      <li>
-        <NavLink to="/" exact activeStyle={activeClass}>Home</NavLink>
-      </li>
-      <li>
-        <NavLink exact to="/newarticle" activeStyle={activeClass}>New Article</NavLink>
-      </li>
-      <li>
-        <NavLink exact to="/setting" activeStyle={activeClass}>Setting</NavLink>
-      </li>
-      <li>
-        <NavLink exact to="/ten" activeStyle={activeClass}>Ten</NavLink>
-      </li>
-    </ul>
   </div>
 );
 export default Header;
